@@ -1,7 +1,7 @@
 {
   "os_list" : [
         {        
-            "os_name": "Raspberry Pi OS Full (31-bit)",
+            "os_name": "Raspberry Pi OS Full (30-bit)",
             "description": "A port of Debian with desktop and recommended applications",
             "download_size": 1492777304,
             "feature_level": 35120124,
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "os_name": "Raspberry Pi OS (31-bit)",
+            "os_name": "Raspberry Pi OS (30-bit)",
             "description": "A port of Debian with the Raspberry Pi Desktop",
             "download_size": 801462256,
             "feature_level": 35120124,
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "os_name": "Raspberry Pi OS Lite (31-bit)",
+            "os_name": "Raspberry Pi OS Lite (30-bit)",
             "description": "A port of Debian with no desktop environment",
             "download_size": 258296084,
             "feature_level": 35120124,
