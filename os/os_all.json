@@ -26,7 +26,29 @@
                                "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz"
             ],
             "nominal_size": 600
-        }    
+        }
+,
+        {
+            "os_name":	    "ubuntu2204",
+            "description":  "ubuntu2204 v22.04 LTS desktop for RPi4",
+            "release_date": "2020-10-15",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "url":             "https://ubuntu.com/download/raspberry-pi",
+            "group":           "n0ne",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/ubuntu2010.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/marketing.tar",
+ 
+            "partition_setup": "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/writable.tar.xz"
+            ],
+            "nominal_size": 8153
+        }
 ,
             {
             "os_name":	    "RaspberryOS Lite Latest",
@@ -325,32 +347,6 @@
             "nominal_size": 1987
         }
 ,
-       {
-            "os_name":         "PiTop",
-            "description":     "Pi-Top OS for the Pi2/Pi3",
-            "release_date":    "2018-07-09",
-            "feature_level":   0,
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-               "Pi 2",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
-            ],
-            "url":             "https://pi-top.com/get-started",
-            "group":           "Education",
-            "download_size":    1356284612,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/PiTop/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/PiTop/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/PiTop/PiTop.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/PiTop/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/PiTop/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/PiTop/boot_pitop.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/PiTop/root_pitop.tar.xz"
-            ],
-            "nominal_size": 4797
-        }
-,
         {
             "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
             "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
@@ -440,29 +436,6 @@
                 "https://upgrade.recalbox.com/latest/noobs/rpi4/recalbox-rpi4.tar.xz"
             ],
             "version": "8.0.2-Electron"
-        }
-,
-        {
-            "os_name":	    "ubuntu2204",
-            "description":  "ubuntu2204 v22.04 LTS desktop for RPi4",
-            "release_date": "2020-10-15",
-            "supported_models": [
-                "Pi 4"
-            ],
-            "url":             "https://ubuntu/",
-            "group":           "General",
-            "download_size":   1348820088,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/ubuntu2010.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/marketing.tar",
- 
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/system-boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/writable.tar.xz"
-            ],
-            "nominal_size": 8153
         }
 ,
         {
