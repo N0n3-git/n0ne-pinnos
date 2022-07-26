@@ -440,7 +440,7 @@
         }
 ,
         {
-            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "description": "RPi 0 - The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
             "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
             "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
             "download_size": 656029580,
@@ -465,7 +465,7 @@
         }
 ,
         {
-            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "description": "RPi2 - The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
             "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
             "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
             "nominal_size": 7168,
@@ -487,7 +487,7 @@
         }
 ,
         {
-            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "description": "RPi z2-3 | The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
             "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
             "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
             "nominal_size": 7168,
@@ -510,7 +510,7 @@
         }
 ,
         {
-            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "description": "RPi 4 - The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
             "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
             "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
             "nominal_size": 7168,
@@ -648,214 +648,6 @@
                                "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/writable.tar.xz"
             ],
             "nominal_size": 6512
-        }
-,
-        {
-            "os_name":	    "void1",
-            "description":  "A void1 Linux port for ARM devices RPi1",
-            "release_date": "2016-04-20",
-            "feature_level": 35644412,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
-            "supported_models": [
-               "Pi Model",
-               "Pi Compute Module",
-              "Pi Zero W Rev",
-               "Pi Zero Rev"
-            ],
-            "supports_usb_root": false,
-            "url":              "http://http://www.voidlinux.eu/",
-            "group":            "Minimal",
-            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/void1/os.json",
-            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/void1/partitions.json",
-            "icon":             "http://downloads.sourceforge.net/project/pinn/os/void1/void1.png",
-            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/void1/marketing.tar",
-            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/void1/partition_setup.sh",
-            "nominal_size":     396,
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/void1/boot_void.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/void1/root_void.tar.xz"
-            ]
-        }
-
-,
-        {
-            "os_name":	    "void1_musl",
-            "description":  "A void1_musl Linux port for ARM devices RPi1",
-            "release_date": "2016-04-20",
-            "feature_level": 35644412,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
-            "supported_models": [
-               "Pi Model",
-               "Pi Compute Module",
-              "Pi Zero W Rev",
-               "Pi Zero Rev"
-            ],
-            "supports_usb_root": false,
-            "url":              "http://http://www.voidlinux.eu/",
-            "group":            "Minimal",
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/void1_musl/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/void1_musl/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/void1_musl/void1_musl.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/void1_musl/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/void1_musl/partition_setup.sh",
-            "nominal_size": 374,
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/void1_musl/boot_voidm.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/void1_musl/root_voidm.tar.xz"
-            ]
-        }
-
-,
-        {
-            "os_name":	    "void2",
-            "description":  "A Void Linux port for ARM devices RPi2/3",
-            "release_date": "2016-04-20",
-            "feature_level":   0,
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-               "Pi 2",
-               "Pi 3 Model B Rev"
-            ],
-            "supports_usb_root": false,
-            "url":              "http://http://www.voidlinux.eu/",
-            "group":            "Minimal",
-            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/void2/os.json",
-            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/void2/partitions.json",
-            "icon":             "http://downloads.sourceforge.net/project/pinn/os/void2/void2.png",
-            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/void2/marketing.tar",
-            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/void2/partition_setup.sh",
-            "tarballs": [
-                                "http://downloads.sourceforge.net/project/pinn/os/void2/boot_void.tar.xz",
-                                "http://downloads.sourceforge.net/project/pinn/os/void2/root_void.tar.xz"
-            ],
-            "nominal_size":  396
-        }
-
-,
-        {
-            "os_name":	    "void2_musl",
-            "description":  "A Void Linux port for ARM devices RPi2/3",
-            "release_date": "2016-04-20",
-            "feature_level":   0,
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-               "Pi 2",
-               "Pi 3 Model B Rev"
-            ],
-            "supports_usb_root": false,
-            "url":              "http://http://www.voidlinux.eu/",
-            "group":            "Minimal",
-            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/void2_musl/os.json",
-            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/void2_musl/partitions.json",
-            "icon":             "http://downloads.sourceforge.net/project/pinn/os/void2_musl/void2_musl.png",
-            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/void2_musl/marketing.tar",
-            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/void2_musl/partition_setup.sh",
-            "tarballs": [
-                                "http://downloads.sourceforge.net/project/pinn/os/void2_musl/boot_voidm.tar.xz",
-                                "http://downloads.sourceforge.net/project/pinn/os/void2_musl/root_voidm.tar.xz"
-            ],
-            "nominal_size":     374
-        }
-,
-        {
-            "os_name":	    "XBian_RPi1",
-            "description":  "XBian is small, fast and lightweight media center distribution",
-            "release_date": "2022-02-11",
-            "feature_level": 35644412,
-            "supported_models": [
-                "Pi Model",
-                "Pi Compute Module",
-                "Pi Zero W Rev",
-                "Pi Zero Rev"
-            ],
-            "url":              "http://www.xbian.org/",
-            "group":            "Media",
-            "download_size":    315198768,
-            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/os.json",
-            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/partitions.json",
-            "icon":             "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/XBian_RPi1.png",
-            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/marketing.tar",
-            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/partition_setup.sh",
-            "tarballs": [
-                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianboot-rpi.tar.xz",
-                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianroot-rpi.xz"
-            ],
-            "nominal_size":     865
-        }
-,
-        {
-            "os_name":	    "XBian_RPi3",
-            "description":  "XBian is small, fast and lightweight media center distribution",
-            "release_date": "2022-02-18",
-            "feature_level": 0,
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-                "Pi 2",
-                "Pi Zero 2",
-                "Pi 4",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
-            ],
-            "url":              "http://www.xbian.org/",
-            "group":            "Media",
-            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/os.json",
-            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/partitions.json",
-            "icon":             "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/XBian_RPi3.png",
-            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/marketing.tar",
-            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/partition_setup.sh",
-            "tarballs": [
-                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianboot-rpi4.tar.xz",
-                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianroot-rpi4.xz"
-            ],
-            "nominal_size":     864
-        }
-,
-        {
-            "os_name":	    "openelec_rpi1",
-            "description":  "OpenELEC is a fast and user-friendly Kodi Entertainment Center distribution.",
-            "release_date": "2016-04-30",
-            "feature_level": 35644412,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092",
-            "supported_models": [
-              "Pi Model",
-              "Pi Compute Module",
-              "Pi Zero W Rev",
-              "Pi Zero Rev"
-            ],
-            "url":             "http://openelec.tv/",
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/openelec_rpi1.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/system.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/storage.tar.xz"
-            ],
-            "nominal_size": 541
-        }
-,
-        {
-            "os_name":	    "openelec_rpi2",
-            "description":  "A openelec_rpi Linux port for ARM devices RPi2/3",
-            "release_date": "2017-04-30",
-            "feature_level": 0,
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-                "Pi 2",
-                "Pi 3 Model B Rev"
-            ],
-            "url":             "http://openelec.tv/",
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/openelec_rpi2.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/system.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/storage.tar.xz"
-            ],
-            "nominal_size": 541
         }
 ,
         {
