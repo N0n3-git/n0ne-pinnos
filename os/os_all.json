@@ -38,7 +38,7 @@
             "url":             "https://ubuntu.com/download/raspberry-pi",
             "group":           "n0ne",
             "os_info":         "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/os_ubuntu.json",
-            "partitions_info": "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/partition_ubuntu.json",
+            "partitions_info": "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/partitions_ubuntu.json",
             "icon":            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/240px-Logo-ubuntu_cof-orange-hex.svg.png",
             "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/marketing.tar",
  
