@@ -1,9 +1,16 @@
 {
 	"repo_list" : [
 		{
-			"name" : "n0n3",
+			"name" : "PINN-ORIG",
+			"url"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_all.json"
+		},
+		{
+			"name" : "n0ne",
+			"url"  : "http://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/os_all.json"
+		},
+		{
+			"name" : "PINN",
 			"url"  : "http://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/os_all.json"
 		}
 	]
 }
-
