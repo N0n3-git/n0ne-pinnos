@@ -12,7 +12,7 @@
             "os_info": "http://downloads.raspberrypi.org/raspios_full_armhf/os.json",
             "partition_setup": "http://downloads.raspberrypi.org/raspios_full_armhf/partition_setup.sh",
             "partitions_info": "http://downloads.raspberrypi.org/raspios_full_armhf/partitions.json",
-            "release_date": "2021-10-30",
+            "release_date": "2022-04-04",
             "version": "bullseye",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
             "supported_models": [
@@ -40,7 +40,7 @@
             "os_info": "http://downloads.raspberrypi.org/raspios_armhf/os.json",
             "partition_setup": "http://downloads.raspberrypi.org/raspios_armhf/partition_setup.sh",
             "partitions_info": "http://downloads.raspberrypi.org/raspios_armhf/partitions.json",
-            "release_date": "2021-10-30",
+            "release_date": "2022-04-04",
             "version": "bullseye",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
             "supported_models": [
@@ -68,7 +68,7 @@
             "os_info": "http://downloads.raspberrypi.org/raspios_lite_armhf/os.json",
             "partition_setup": "http://downloads.raspberrypi.org/raspios_lite_armhf/partition_setup.sh",
             "partitions_info": "http://downloads.raspberrypi.org/raspios_lite_armhf/partitions.json",
-            "release_date": "2021-10-30",
+            "release_date": "2022-04-04",
             "version": "bullseye",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
             "supported_models": [
@@ -90,6 +90,7 @@
             "release_date": "2022-01-01",
             "feature_level": 0,
             "group":         "n0ne",
+            "release_date": "2022-04-04",
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi Zero",
