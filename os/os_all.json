@@ -30,9 +30,14 @@
 ,
         {
             "os_name":	    "ubuntu2204",
-            "description":  "ubuntu2204 v22.04 LTS desktop for RPi4",
-            "release_date": "2020-10-15",
+            "description":  "Ubuntu v22.04 LTS Desktop",
+            "release_date": "2022-10-15",
             "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
                 "Pi 4"
             ],
             "url":             "https://ubuntu.com/download/raspberry-pi",
