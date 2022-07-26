@@ -1,0 +1,14 @@
+{
+    "name":                     "ubuntu2204",
+    "description":              "Ubuntu 22.04 TLS desktop for Raspberry Pi 4",
+    "release_date":             "2022-10-15",
+    "feature_level":            0,
+    "supported_models": [
+        "Pi 4"
+    ],
+    "version":                  "22.04",
+    "kernel":                   "5.8",
+    "supports_backup":          true,
+    "url":                      "URL",
+    "group":                    "General",
+}
