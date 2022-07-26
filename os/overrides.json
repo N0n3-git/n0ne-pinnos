@@ -247,29 +247,29 @@
         "+download_size" : 526744677
     },
     "Raspberry Pi OS Full (32-bit)": {
-        "url": "https://www.raspbian.org/",
+        "url": "https://www.raspberrypi.com/software/operating-systems/",
         "+supports_backup": true,   
-        "group": "General"
+        "group": "n0ne"
     },
     "Raspberry Pi OS (32-bit)": {
-        "url": "https://www.raspbian.org/",
+        "url": "https://www.raspberrypi.com/software/operating-systems/",
         "+supports_backup": true,
-        "group": "General"
+        "group": "n0ne"
     },
     "Raspberry Pi OS Lite (32-bit)": {
-        "url": "https://www.raspbian.org/",
+        "url": "https://www.raspberrypi.com/software/operating-systems/",
         "+supports_backup": true,
-        "group": "Minimal"
+        "group": "n0ne-min"
     },
     "Raspberry Pi OS (64-bit)": {
-        "url": "https://www.raspbian.org/",
+        "url": "https://www.raspberrypi.com/software/operating-systems/",
         "+supports_backup": true,
-        "group": "General"
+        "group": "n0ne"
     },
     "Raspberry Pi OS Lite (64-bit)": {
-        "url": "https://www.raspbian.org/",
+        "url": "https://www.raspberrypi.com/software/operating-systems/",
         "+supports_backup": true,
-        "group": "Minimal"
+        "group": "n0ne-min"
     },
     "Raspex": {
         "group": "General",
