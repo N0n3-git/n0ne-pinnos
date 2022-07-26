@@ -27,7 +27,34 @@
             ],
             "nominal_size": 600
         }    
-,      
+,
+            {
+            "os_name":	    "RaspberryOS Lite Latest",
+            "description":  "Dernière version de Raspberry OS Lite",
+            "release_date": "2022-01-07",
+            "feature_level": 0,
+            "group":         "n0ne-min",
+            "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "url":             "https://github.com/N0n3-git/n0ne-pinnos",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
+            "icon":            "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3b/Raspberry_Pi_logo.svg/810px-Raspberry_Pi_logo.svg.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+            "tarballs": [
+                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz",
+                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz"
+            ],
+            "nominal_size": 600
+        }    
+,
         {
             "os_name":	    "AIYprojects",
             "description":  "Raspbian image for Google Assistant projects",
