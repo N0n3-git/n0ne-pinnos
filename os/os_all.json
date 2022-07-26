@@ -1,6 +1,76 @@
 {
   "os_list" : [
         {
+            "os_name":	    "RaspberryOS Latest",
+            "description":  "Dernière version de Raspberry OS",
+            "release_date": "2022-01-01",
+            "feature_level": 0,
+            "group":         "n0ne",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "url":             "https://github.com/N0n3-git/n0ne-pinnos",
+            "flavours": [
+              {
+                "name": "Pouet - 1",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 2",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 3",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 4",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 5",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 6",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 7",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 8",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              }
+            ],
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
+            "icon":            "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3b/Raspberry_Pi_logo.svg/810px-Raspberry_Pi_logo.svg.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+            "tarballs": [
+                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz",
+                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz"
+            ],
+            "nominal_size": 600
+        }    
+,      
+        {
             "os_name":	    "AIYprojects",
             "description":  "Raspbian image for Google Assistant projects",
             "release_date": "2017-05-03",
