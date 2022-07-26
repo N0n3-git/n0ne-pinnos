@@ -1,6 +1,10 @@
 {
 	"repo_list" : [
 		{
+			"name" : "N0n3",
+			"url"  : "http://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os_all.json"
+		},
+		{
 			"name" : "NOOBS",
 			"urlnew"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_noobs.json",
 			"url"  : "http://downloads.raspberrypi.org/os_list_v3.json"
@@ -12,10 +16,6 @@
 		{
 			"name" : "Testing",
 			"url"  : "http://raw.githubusercontent.com/procount/pinn-os/master/os/os_testing.json"
-		},
-		{
-			"name" : "Matt Huisman",
-			"url"  : "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os_list_v3.json"
 		},
 		{
 			"name" : "Sakaki",
