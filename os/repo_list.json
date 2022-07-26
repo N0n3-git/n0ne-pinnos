@@ -2,7 +2,7 @@
 	"repo_list" : [
 		{
 			"name" : "N0n3",
-			"url"  : "http://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os_all.json"
+			"url"  : "http://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/os_all.json"
 		},
 		{
 			"name" : "NOOBS",
