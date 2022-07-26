@@ -83,36 +83,7 @@
                 "http://downloads.raspberrypi.org/raspios_lite_armhf/boot.tar.xz",
                 "http://downloads.raspberrypi.org/raspios_lite_armhf/root.tar.xz"
             ]
-        },    
-        {
-            "os_name":	    "RaspberryOS Latest",
-            "description":  "Dernière version de Raspberry OS",
-            "release_date": "2022-01-01",
-            "feature_level": 0,
-            "group":         "n0ne",
-            "release_date": "2022-04-04",
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-                "Pi Zero",
-                "Pi Model",
-                "Pi Compute Module",
-                "Pi 2",
-                "Pi 3",
-                "Pi 4"
-            ],
-            "supports_usb_boot": true,
-            "url":             "https://github.com/N0n3-git/n0ne-pinnos",
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
-            "icon":            "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3b/Raspberry_Pi_logo.svg/810px-Raspberry_Pi_logo.svg.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
-            "tarballs": [
-                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz",
-                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz"
-            ],
-            "nominal_size": 600
-        }
-,
+        }, 
         {
             "os_name":	    "ubuntu2204",
             "feature_level":            0,
@@ -140,35 +111,7 @@
                                "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/writable.tar.xz"
             ],
             "nominal_size": 8153
-        }
-,
-            {
-            "os_name":	    "RaspberryOS Lite Latest",
-            "description":  "Dernière version de Raspberry OS Lite",
-            "release_date": "2022-01-07",
-            "feature_level": 0,
-            "group":         "n0ne-min",
-            "supported_models": [
-                "Pi Zero",
-                "Pi Model",
-                "Pi Compute Module",
-                "Pi 2",
-                "Pi 3",
-                "Pi 4"
-            ],
-            "supports_usb_boot": true,
-            "url":             "https://github.com/N0n3-git/n0ne-pinnos",
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
-            "icon":            "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3b/Raspberry_Pi_logo.svg/810px-Raspberry_Pi_logo.svg.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
-            "tarballs": [
-                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz",
-                               "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz"
-            ],
-            "nominal_size": 600
-        }
-,
+        },
         {
             "os_name": "kali1",
             "description": "Kali Linux v2.1.2 for RPI1",
@@ -182,7 +125,7 @@
                 "Pi Zero Rev"
             ],
             "url":              "https://www.kali.org/",
-            "group":            "General",
+            "group":            "n0ne",
             "os_info":          "http://downloads.sourceforge.net/project/pinn/os/kali1/os.json",
             "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/kali1/partitions.json",
             "icon":             "http://downloads.sourceforge.net/project/pinn/os/kali1/kali1.png",
@@ -207,7 +150,7 @@
                "Pi 3 Model B Rev"
             ],
             "url":              "https://www.kali.org/",
-            "group":            "General",
+            "group":            "n0ne",
             "os_info":          "http://downloads.sourceforge.net/project/pinn/os/kali2/os.json",
             "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/kali2/partitions.json",
             "icon":             "http://downloads.sourceforge.net/project/pinn/os/kali2/kali2.png",
@@ -224,7 +167,7 @@
             "os_name":                 "Kali_Linux_Full_(32-bit)",
             "description":             "A port of 32-bit Kali Linux for Pi 2 through 4 with desktop and recommended applications",
             "release_date":            "2020-12-17",
-            "group" :                  "General",
+            "group" :                  "n0ne",
             "download_size":           1993287180,
             "supported_models": [
                 "Pi 2",
@@ -251,7 +194,7 @@
             "os_name":                 "Kali_Linux_Full_(64-bit)",
             "description":             "A port of 64-bit Kali Linux for Pi 2 through 4 with desktop and recommended applications",
             "release_date":            "2020-12-17",
-            "group" :                  "General",
+            "group" :                  "n0ne",
             "download_size":           2031796648,
             "supported_models": [
                 "Pi 2 v1.2",
@@ -291,7 +234,7 @@
             "version":                 "19.0",
             "supports_backup": true,
             "url":             "http://konstakang.com/devices/rpi4/",
-            "group":           "General",
+            "group":           "n0ne",
             "download_size":   401231816,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/partitions.json",
@@ -324,7 +267,7 @@
             "version":                 "19.0",
             "supports_backup": true,
             "url":             "http://konstakang.com/devices/rpi4/",
-            "group":           "General",
+            "group":           "n0ne",
             "download_size":   496867888,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/partitions.json",
@@ -341,52 +284,6 @@
         }
 ,
         {
-            "os_name":	    "manjaro-kde-rpi4",
-            "description":  "manjaro-kde-rpi4 16.0 for RPi4",
-            "release_date": "2020-04-03",
-            "supported_models": [
-                "Pi 4 Model B Rev"
-            ],
-            "supports_usb_boot": false,
-            "supports_usb_root": true,
-            "group":           "General",
-            "download_size":    995280276,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/manjaro-kde-rpi4.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/root.tar.xz"
-            ],
-            "nominal_size": 5007
-        }
-,
-        {
-            "os_name":	    "manjaro-xfce-rpi4",
-            "description":  "manjaro-xfce-rpi4 16.0 for RPi4",
-            "release_date": "2020-04-03",
-            "supported_models": [
-                "Pi 4 Model B Rev"
-            ],
-            "supports_usb_boot": false,
-            "supports_usb_root": true,
-            "group":           "General",
-            "download_size":    788536836,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/manjaro-xfce-rpi4.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/root.tar.xz"
-            ],
-            "nominal_size": 4371
-        }
-,
-        {
             "os_name":	    "piratebox1",
             "description":  "A piratebox1 Linux port for ARM devices RPi0/1",
             "release_date": "2018-02-27",
@@ -394,12 +291,12 @@
             "supported_models": [
                 "Pi Model",
                 "Pi Compute Module",
-              "Pi Zero W Rev",
+                "Pi Zero W Rev",
                 "Pi Zero Rev"
             ],
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "group":           "General",
+            "group":           "n0ne",
             "download_size":    337795140,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/piratebox1/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/piratebox1/partitions.json",
@@ -421,11 +318,12 @@
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi 2",
-                "Pi 3"
+                "Pi 3",
+                "Pi 4"
             ],
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "group":           "General",
+            "group":           "n0ne",
             "download_size":    351957056,
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/piratebox2/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/piratebox2/partitions.json",
@@ -449,7 +347,7 @@
             "os_name": "Recalbox - Pi0-1",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi0-1/partitions.json",
             "release_date": "2022-01-30",
-            "group" : "Games",
+            "group" : "n0ne-Games",
             "supports_backup" : "update",
             "url" : "https://www.recalbox.com/",
             "supported_models": [
@@ -474,7 +372,7 @@
             "os_name": "Recalbox - Pi2",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi2/partitions.json",
             "release_date": "2022-01-30",
-            "group" : "Games",
+            "group" : "n0ne-Games",
             "supports_backup" : "update",
             "url" : "https://www.recalbox.com/",
             "supported_models": [
@@ -496,7 +394,7 @@
             "os_name": "Recalbox - Pi3",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi3/partitions.json",
             "release_date": "2022-01-30",
-            "group" : "Games",
+            "group" : "n0ne-Games",
             "url" : "https://www.recalbox.com/",
             "supported_models": [
                 "Pi Zero 2",
@@ -519,7 +417,7 @@
             "os_name": "Recalbox - Pi4",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi4/partitions.json",
             "release_date": "2022-01-30",
-            "group" : "Games",
+            "group" : "n0ne-Games",
             "url" : "https://www.recalbox.com/",
             "supported_models": [
                 "Pi 4"
@@ -528,134 +426,13 @@
                 "https://upgrade.recalbox.com/latest/noobs/rpi4/recalbox-rpi4.tar.xz"
             ],
             "version": "8.0.2-Electron"
-        }
-,
-        {
-            "os_name":	    "ubuntu2110",
-            "description":  "ubuntu2110 v21.10 desktop for RPi4",
-            "release_date": "2021-10-14",
-            "supported_models": [
-                "Pi Compute Module 4",
-                "Pi 4"
-            ],
-            "url":             "https://ubuntu/",
-            "group":           "General",
-            "download_size":   1647079948,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/ubuntu2110.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/system-boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/writable.tar.xz"
-            ],
-            "nominal_size": 8727
-        }
-,
-        {
-            "os_name":	    "ubuntuMate1604LTS",
-            "description": "Ubuntu Mate 16.04.2 LTS",
-            "release_date": "2016-11-05",
-            "feature_level": 0,
-            "supported_hex_revisions": "1040,1041,2082",
-            "supported_models": [
-                "Pi 2",
-                "Pi 3 Model B Rev"
-            ],
-            "supports_usb_boot": false,
-            "url":              "https://ubuntu-mate.org/download/",
-            "group":            "General",
-            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/os.json",
-            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/partitions.json",
-            "icon":             "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/ubuntuMate1604LTS.png",
-            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/marketing.tar",
-            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/partition_setup.sh",
-            "tarballs": [
-                                "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/boot_ub.tar.xz",
-                                "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/root_ub.tar.xz"
-            ],
-            "nominal_size": 4568
-        }
-,
-        {
-            "os_name":	    "ubuntumate2010_64",
-            "description":  "ubuntumate2010_64 v20.10 for RPi 3/4",
-            "release_date": "2020-10-15",
-            "supported_models": [
-                "Pi 3",
-                "Pi Compute Module 3",
-                "Pi 4"
-            ],
-            "url":             "https://ubuntu-mate.org/ports/raspberry-pi/",
-            "group":           "General",
-            "download_size":   1189870456,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/ubuntumate2010_64.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/system-boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/writable.tar.xz"
-            ],
-            "nominal_size": 5574
-        }
-,
-        {
-            "os_name":	    "ubuntumate2110_64",
-            "description":  "ubuntumate2110 64-bit v21.10 for RPi 3/4",
-            "release_date": "2021-10-15",
-            "supported_models": [
-                "Pi 3",
-                "Pi Compute Module 3",
-                "Pi 4"            
-            ],            
-            "url":             "https://ubuntu-mate.org/ports/raspberry-pi/",
-            "group":           "General",
-            "download_size":   1618766380,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/ubuntumate2110_64.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/system-boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/writable.tar.xz"
-            ],
-            "nominal_size": 6512
-        }
-,
-        {
-            "os_name":	    "ubuntumate2110",
-            "description":  "ubuntumate2110 v21.10 for RPi 3/4",
-            "release_date": "2021-10-15",
-            "supported_models": [
-                "Pi 3",
-                "Pi Compute Module 3",
-                "Pi 4"
-            ],
-            "url":             "https://ubuntu-mate.org/ports/raspberry-pi/",
-            "group":           "General",
-            "download_size":   1563079616,
-            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/os.json",
-            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/partitions.json",
-            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/ubuntumate2110.png",
-            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/marketing.tar",
-            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/partition_setup.sh",
-            "tarballs": [
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/system-boot.tar.xz",
-                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/writable.tar.xz"
-            ],
-            "nominal_size": 6512
-        }
-,
+        },
         {
             "os_name":	    "ProjectSpace",
             "description":  "A Project Space used to partition the SD card equally.",
             "release_date": "2018-05-14",
             "feature_level": 0,
-            "group":         "Utility",
+            "group":         "n0ne-Utility",
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi Zero",
@@ -718,6 +495,5 @@
             ],
             "nominal_size": 600
         }
-
   ]
 }
