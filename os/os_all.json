@@ -17,48 +17,6 @@
             ],
             "supports_usb_boot": true,
             "url":             "https://github.com/N0n3-git/n0ne-pinnos",
-            "flavours": [
-              {
-                "name": "Pouet - 1",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 2",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 3",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 4",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 5",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 6",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 7",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              },
-              {
-                "name": "ProjectSpace - 8",
-                "description": "A Project Space to partition the SD card equally",
-                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
-              }
-            ],
             "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
             "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
             "icon":            "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3b/Raspberry_Pi_logo.svg/810px-Raspberry_Pi_logo.svg.png",
