@@ -30,6 +30,12 @@
 ,
         {
             "os_name":	    "ubuntu2204",
+            "feature_level":            0,
+            "version":                  "22.04",
+            "kernel":                   "5.8",
+            "supports_backup":          true,
+            "url":             "https://ubuntu.com/download/raspberry-pi",
+            "group":           "n0ne",
             "description":  "Ubuntu v22.04 LTS Desktop",
             "release_date": "2022-10-15",
             "supported_models": [
@@ -40,13 +46,9 @@
                 "Pi 3",
                 "Pi 4"
             ],
-            "url":             "https://ubuntu.com/download/raspberry-pi",
-            "group":           "n0ne",
-            "os_info":         "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/os_ubuntu.json",
             "partitions_info": "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/partitions_ubuntu.json",
             "icon":            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/240px-Logo-ubuntu_cof-orange-hex.svg.png",
             "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/marketing.tar",
- 
             "partition_setup": "https://raw.githubusercontent.com/N0n3-git/n0ne-pinnos/master/os/ubuntu2204/partition_setup.sh",
             "tarballs": [
                                "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/system-boot.tar.xz",
